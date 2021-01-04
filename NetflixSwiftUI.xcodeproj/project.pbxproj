@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B579EF2D25A2CFFB004C8A3B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF2C25A2CFFB004C8A3B /* Home.swift */; };
+		B579EF3025A2D0CB004C8A3B /* midleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF2F25A2D0CB004C8A3B /* midleView.swift */; };
+		B579EF3325A2D102004C8A3B /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF3225A2D102004C8A3B /* BottomView.swift */; };
+		B579EF3625A2D13C004C8A3B /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF3525A2D13C004C8A3B /* Detail.swift */; };
 		B5E75BE12524BFD2001B03CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E75BE02524BFD2001B03CA /* AppDelegate.swift */; };
 		B5E75BE32524BFD2001B03CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E75BE22524BFD2001B03CA /* SceneDelegate.swift */; };
 		B5E75BE52524BFD2001B03CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E75BE42524BFD2001B03CA /* ContentView.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B579EF2C25A2CFFB004C8A3B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B579EF2F25A2D0CB004C8A3B /* midleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midleView.swift; sourceTree = "<group>"; };
+		B579EF3225A2D102004C8A3B /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		B579EF3525A2D13C004C8A3B /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		B5E75BDD2524BFD2001B03CA /* NetflixSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E75BE02524BFD2001B03CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E75BE22524BFD2001B03CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B579EF2B25A2CFEA004C8A3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B579EF2C25A2CFFB004C8A3B /* Home.swift */,
+				B579EF2F25A2D0CB004C8A3B /* midleView.swift */,
+				B579EF3225A2D102004C8A3B /* BottomView.swift */,
+				B579EF3525A2D13C004C8A3B /* Detail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B5E75BD42524BFD2001B03CA = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +75,7 @@
 		B5E75BDF2524BFD2001B03CA /* NetflixSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B579EF2B25A2CFEA004C8A3B /* View */,
 				B5E75BE02524BFD2001B03CA /* AppDelegate.swift */,
 				B5E75BE22524BFD2001B03CA /* SceneDelegate.swift */,
 				B5E75BE42524BFD2001B03CA /* ContentView.swift */,
@@ -102,7 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = CreatesApp;
 				TargetAttributes = {
 					B5E75BDC2524BFD2001B03CA = {
@@ -147,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E75BE12524BFD2001B03CA /* AppDelegate.swift in Sources */,
+				B579EF3625A2D13C004C8A3B /* Detail.swift in Sources */,
 				B5E75BE32524BFD2001B03CA /* SceneDelegate.swift in Sources */,
+				B579EF2D25A2CFFB004C8A3B /* Home.swift in Sources */,
+				B579EF3325A2D102004C8A3B /* BottomView.swift in Sources */,
+				B579EF3025A2D0CB004C8A3B /* midleView.swift in Sources */,
 				B5E75BE52524BFD2001B03CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +216,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
